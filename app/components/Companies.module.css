@@ -1,0 +1,53 @@
+.section-companies {
+background-color: #181818;
+color: white;
+
+}
+
+/* ribbon */
+.ribbon-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.ribbon {
+    background-color: yellow;
+    overflow: hidden;
+    color: #181818;
+    rotate: -2deg;
+
+}
+
+.ribbon-behind {
+    position: absolute;
+    background-color: yellow;
+    overflow: hidden;
+    color: #181818;
+    rotate: 2deg;
+    z-index: -2;
+
+}
+
+
+.ribbon span {
+    margin-left: 100px;
+    
+}
+
+
+
+.section-companies-img {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.section-companies-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 40px;
+    font-weight: lighter;
+
+}
